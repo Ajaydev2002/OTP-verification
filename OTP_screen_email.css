@@ -1,0 +1,181 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-family:"inter",sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    padding-inline: 50px;
+    padding-block: 60px;
+}
+
+
+.header-contents {
+    background-color: #9f84bf;
+    border-radius: 20px;
+}
+
+.header-contents {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.header-logo-content {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+.header-logo-content h1 {
+    font-size: 20px;
+}
+.header-logo-text p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.header-img {
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+
+
+.name-text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-block: 40px;
+}
+.otp-text p {
+    font-size: 20px;
+}
+
+.otp-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-block: 50px;
+}
+.otp-enter1 {
+    background-color: #e9deff;
+    padding-inline: 20px;
+    padding-block: 15px;
+    border-radius: 5px;
+    color: #6a6969;
+}
+.otp-enter2 {
+    background-color: #e9deff;
+    padding-inline: 20px;
+    padding-block: 15px;
+    border-radius: 5px;
+    color: #6a6969;
+}
+.otp-enter3 {
+    background-color: #e9deff;
+    padding-inline: 20px;
+    padding-block: 15px;
+    border-radius: 5px;
+    color: #6a6969;
+}
+.otp-enter4 {
+    background-color: #e9deff;
+    padding-inline: 20px;
+    padding-block: 15px;
+    border-radius: 5px;
+    color: #6a6969;
+}
+.validation-text {
+    padding-bottom: 10px;
+}
+.validation-text p {
+    font-size: 20px;
+}
+.validation-para2 {
+    padding-top: 10px;
+}
+.regards-text p {
+    font-size: 20px;
+}
+.regards-text h2 {
+    font-size: 20px;
+    color: #8c52ff;
+    padding-top: 10px;
+}
+.regards-text {
+    padding-block: 40px;
+}
+
+
+.top-line {
+    border-top: 2px solid black;
+}
+
+.footer-icons {
+    display: flex;
+    padding-block: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.twitter-icon {
+    width: 50px;
+    height: 50px;
+}
+.twitter-icon:hover {
+    cursor: pointer;
+}
+.linkedin-icon {
+    width: 50px;
+    height: 50px;
+}
+.linkedin-icon:hover {
+    cursor: pointer;
+}
+.facebook-icon {
+    width: 50px;
+    height: 50px;
+}
+.facebook-icon:hover {
+    cursor: pointer;
+}
+.insta-icon {
+    width: 50px;
+    height: 50px;
+}
+.insta-icon:hover {
+    cursor: pointer;
+}
+.thread-icon {
+    width: 53px;
+    height: 48px;
+}
+.thread-icon:hover {
+    cursor: pointer;
+}
+.bottom-line {
+    border-bottom: 2px solid black;
+}
+.copyrights {
+    text-align: center;
+    padding-top: 30px;
+}
+.copyrights p {
+    font-size: 20px;
+    font-weight: 500;
+}
